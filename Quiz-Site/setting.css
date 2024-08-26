@@ -1,0 +1,181 @@
+/* style.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #007bff;
+    color: #fff;
+    padding: 1rem 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+.logo {
+    font-size: 2rem;
+    font-weight: bold;
+    text-decoration: none;
+    color:orange;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav li {
+    margin-right: 1rem;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav a.active {
+    color: #ffc107;
+}
+
+.user {
+    display: flex;
+    align-items: center;
+}
+
+.user button {
+    background-color: #fff;
+    color: #007bff;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.user button:hover {
+    background-color: #007bff;
+    color: #fff;
+}
+
+main {
+    padding: 2rem 0;
+}
+
+.settings {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.section {
+    margin-bottom: 2rem;
+}
+
+.section h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.field {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.field label {
+    width: 150px;
+    font-weight: bold;
+    margin-right: 1rem;
+}
+
+.field input,
+.field select {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    flex-grow: 1;
+}
+
+.edit-icon {
+    margin-left: 1rem;
+    cursor: pointer;
+}
+
+.upgrade-button {
+    background-color: blue;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-left: 1rem;
+}
+
+.upgrade-button:hover {
+    background-color: blue;
+}
+
+.sign-out-button {
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 1rem;
+    display: block;
+}
+
+.sign-out-button:hover {
+    background-color: #c82333;
+}
+
+.tokens {
+    margin-left: 1rem;
+}
+
+.social-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-links li {
+    margin-right: 1rem;
+}
+
+.social-links i {
+    font-size: 1.5rem;
+    color: #333;
+    transition: color 0.3s ease;
+}
+
+.social-links i:hover {
+    color: #007bff;
+}
+
+footer {
+    background-color: #f5f5f5;
+    padding: 1rem 0;
+    text-align: center;
+    font-size: 0.8rem;
+    color: #333;
+}
